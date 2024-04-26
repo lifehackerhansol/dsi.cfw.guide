@@ -10,7 +10,7 @@ module.exports = {
 	editLinkText: "Edit this page",
 	openInNewWindow: "open in new window",
 	selectLanguageAriaLabel: "Select language",
-	toggleDarkMode: "toggle dark mode",
+	toggleColorMode: "toggle color mode",
 	toggleSidebar: "toggle sidebar",
 
 	navbar: [

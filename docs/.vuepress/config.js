@@ -1,3 +1,5 @@
+import { viteBundler } from '@vuepress/bundler-vite';
+
 const { i18n, themeConfig } = require("./i18n");
 const { emiylTheme } = require('./vuepress-theme');
 
@@ -78,6 +80,8 @@ module.exports = {
 			],
 		}
 	},
+
+	bundler: viteBundler(),
 
 	theme: emiylTheme({
 		repo: "cfw-guide/dsi.cfw.guide",
