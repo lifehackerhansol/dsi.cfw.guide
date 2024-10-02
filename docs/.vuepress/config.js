@@ -21,7 +21,7 @@ const themeLocales = Object.fromEntries(
 themeLocales["/"] = themeConfig.en_US;
 
 module.exports = {
-	locales,
+	locales: locales,
 	theme: emiylTheme({
 		repo: "cfw-guide/dsi.cfw.guide",
 		docsBranch: "master",

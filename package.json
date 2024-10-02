@@ -1,14 +1,14 @@
 {
   "devDependencies": {
-    "@vuepress/plugin-palette": "^2.0.0-rc.21",
-    "@vuepress/plugin-register-components": "^2.0.0-rc.21",
-    "@vuepress/theme-default": "^2.0.0-rc.28",
-    "@vuepress/bundler-vite": "^2.0.0-rc.9",
+    "@vuepress/bundler-vite": "^2.0.0-rc.17",
+    "@vuepress/plugin-register-components": "^2.0.0-rc.52",
+    "@vuepress/theme-default": "^2.0.0-rc.52",
     "markdown-it-container": "^4.0.0",
-    "vuepress": "2.0.0-rc.9"
+    "sass-embedded": "^1.79.4",
+    "vuepress": "2.0.0-rc.17"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build --debug docs"
+    "docs:build": "vuepress build docs"
   }
 }
