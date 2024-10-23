@@ -16,6 +16,7 @@ export default defineConfig({
     root: i18n.en_US
   },
   themeConfig: {
+    aside: false,
     docFooter: {
       prev: false,
       next: false
