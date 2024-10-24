@@ -10,7 +10,6 @@ export default defineConfig({
   description: "The complete guide to modding your Nintendo DSi",
   head: [
     ['link', { rel: 'icon', href: '/assets/favicon/favicon.ico' }],
-    [ 'script', { type: 'text/javascript', src: '//cdn.thisiswaldo.com/static/js/8406.js' } ],
   ],
   locales: {
     root: i18n.en_US
